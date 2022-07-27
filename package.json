@@ -1,0 +1,16 @@
+{
+  "name": "js_sanitizer",
+  "version": "1.0.0",
+  "description": "A sanitizer for JSON strings to sanitize dangerous html and escape json control characters",
+  "main": "sanitize.js",
+  "scripts": {
+    "test": "node sanitizeTest.js"
+  },
+  "author": "JZG",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "sanitize-html": "^2.7.1"
+  },
+  "type": "module"
+}
